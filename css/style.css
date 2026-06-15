@@ -131,6 +131,34 @@ a {
   margin-bottom: var(--space-xs);
 }
 
+.view-header__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-xs);
+}
+
+.view-header__logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.view-header__brand .view-header__eyebrow {
+  margin-bottom: 0;
+}
+
+.about-logo {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto var(--space-md);
+}
+
 .view-header__title {
   font-size: 28px;
   font-weight: 800;
