@@ -1,0 +1,268 @@
+{
+  "id": "tenses",
+  "title": "Tenses",
+  "titleMM": "အင်္ဂလိပ်စာ Tense အားလုံး",
+  "lessons": [
+    {
+      "id": "present-simple",
+      "title": "Present Simple",
+      "tag": "Habits & Facts — အကျင့်နှင့် အမှန်တရားများ",
+      "explain": [
+        "Present Simple ကို habit (နေ့စဉ်အကျင့်)၊ fact (အမှန်တရား) နှင့် general truth (အမြဲမှန်တာ) တွေပြောချင်ရင် သုံးပါတယ်။ ဥပမာ — \"The sun rises in the east.\", \"I drink coffee every morning.\"",
+        "He/She/It (သူ၊ သူမ၊ အဲဒါ) အတွက် Verb နောက်မှာ -s ဒါမှမဟုတ် -es ထည့်ရပါတယ် — work → works, go → goes။"
+      ],
+      "structure": [
+        { "label": "Positive", "value": "Subject + V1 (+s/es for he/she/it)" },
+        { "label": "Negative", "value": "Subject + do/does + not + V1" },
+        { "label": "Question", "value": "Do/Does + Subject + V1 ?" }
+      ],
+      "examples": [
+        { "en": "She works in a hospital.", "mm": "သူမ ဆေးရုံမှာ အလုပ်လုပ်ပါတယ် (habit/fact)" },
+        { "en": "Water boils at 100°C.", "mm": "ရေသည် ၁၀၀ ဒီဂရီတွင် ဆူသည် (general truth)" },
+        { "en": "They don't eat meat.", "mm": "သူတို့ အသား မစားကြပါ" },
+        { "en": "Does he play football on Sundays?", "mm": "သူ တနင်္ဂနွေနေ့တွေမှာ ဘောလုံးကန်လား?" }
+      ],
+      "tips": [
+        "always / usually / often / sometimes / never ကဲ့သို့ Adverb of Frequency တွေကို Main verb ရှေ့မှာ ထားပါ — ဒါပေမယ့် \"be\" verb ရှိရင် နောက်မှာထားပါ (She is always late.)"
+      ],
+      "quiz": [
+        { "q": "\"She _____ to school every morning.\"", "options": ["go", "goes", "going", "gone"], "correct": 1 },
+        { "q": "\"The sun _____ in the east.\"", "options": ["rise", "rises", "rising", "rose"], "correct": 1 },
+        { "q": "\"They _____ coffee.\" (negative)", "options": ["doesn't drink", "don't drinks", "don't drink", "not drink"], "correct": 2 },
+        { "q": "\"_____ you speak English?\"", "options": ["Do", "Does", "Are", "Is"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "present-continuous",
+      "title": "Present Continuous",
+      "tag": "Now / Right now — အခုလက်ရှိ ဖြစ်နေတာ",
+      "explain": [
+        "Present Continuous (am/is/are + V-ing) ကို အခုလက်ရှိအချိန်တွင် ဖြစ်နေတဲ့အရာ၊ ဒါမှမဟုတ် ကာလတိုအတွင်း ဖြစ်နေတဲ့အရာအတွက် သုံးပါတယ်။",
+        "အရင်ကတည်းစီစဉ်ထားတဲ့ Future plan အတွက်လည်း သုံးနိုင်ပါတယ် — \"I am meeting him tomorrow.\""
+      ],
+      "structure": [
+        { "label": "Positive", "value": "Subject + am/is/are + V-ing" },
+        { "label": "Negative", "value": "Subject + am/is/are + not + V-ing" },
+        { "label": "Question", "value": "Am/Is/Are + Subject + V-ing ?" }
+      ],
+      "examples": [
+        { "en": "I am watching TV right now.", "mm": "ငါ အခု TV ကြည့်နေတယ်" },
+        { "en": "She is studying for her exam this week.", "mm": "သူမ ဒီအပတ် စာမေးပွဲအတွက် လေ့လာနေတယ်" },
+        { "en": "They aren't listening to the teacher.", "mm": "သူတို့ ဆရာ့စကား နားထောင်မနေကြပါ" },
+        { "en": "Are you coming to the party tonight?", "mm": "ဒီည Party ကို လာမှာလား?" }
+      ],
+      "tips": [
+        "Stative verb တွေ (know, like, want, believe, love) ကို Continuous form မသုံးပါ — \"I am knowing\" ❌, \"I know\" ✅။"
+      ],
+      "quiz": [
+        { "q": "\"I _____ watching TV right now.\"", "options": ["am", "is", "are", "be"], "correct": 0 },
+        { "q": "\"She _____ for her exam this week.\"", "options": ["study", "studies", "is studying", "studied"], "correct": 2 },
+        { "q": "\"They _____ to the teacher.\" (negative)", "options": ["isn't listening", "aren't listening", "don't listening", "not listening"], "correct": 1 },
+        { "q": "\"_____ you coming to the party?\"", "options": ["Do", "Are", "Is", "Does"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "present-perfect",
+      "title": "Present Perfect",
+      "tag": "Past + Now — ပြီးခဲ့ပြီး အခုထိ",
+      "explain": [
+        "Present Perfect (have/has + V3) ကို အတိတ်မှာဖြစ်ခဲ့ပြီး အခုထိ သက်ရောက်နေတဲ့အရာ၊ ဒါမှမဟုတ် ဘယ်တော့ဖြစ်ခဲ့မှန်း အတိအကျမသိတဲ့ အတိတ်အတွေ့အကြုံအတွက် သုံးပါတယ်။",
+        "Time အတိအကျ (yesterday, last year) နဲ့ မတွဲသုံးပါ — for/since/already/just/yet/ever/never နဲ့သာ အများဆုံး တွဲသုံးပါတယ်။"
+      ],
+      "structure": [
+        { "label": "Positive", "value": "Subject + have/has + V3 (past participle)" },
+        { "label": "Negative", "value": "Subject + have/has + not + V3" },
+        { "label": "Question", "value": "Have/Has + Subject + V3 ?" }
+      ],
+      "examples": [
+        { "en": "I have visited Bagan twice.", "mm": "ငါ ပုဂံကို နှစ်ခါ သွားခဲ့ဖူးတယ် (ဘယ်တော့ဆိုတာ မဖော်ပြ)" },
+        { "en": "She has already finished her homework.", "mm": "သူမ အိမ်စာ ပြီးပြီးသား" },
+        { "en": "They haven't arrived yet.", "mm": "သူတို့ မရောက်သေးပါ" },
+        { "en": "Have you ever eaten durian?", "mm": "ဒူးရင်းသီး ဘယ်တုန်းကမှ စားဖူးလား?" }
+      ],
+      "tips": [
+        "for (ကြာချိန်) vs since (အချိန်အစ) — \"for two years\" (နှစ်နှစ်ကြာ) vs \"since 2020\" (၂၀၂၀ ကစပြီး)"
+      ],
+      "quiz": [
+        { "q": "\"I _____ my homework already.\"", "options": ["finish", "finished", "have finished", "finishing"], "correct": 2 },
+        { "q": "\"She _____ to Japan three times.\"", "options": ["go", "went", "has gone", "going"], "correct": 2 },
+        { "q": "\"They _____ arrived yet.\"", "options": ["haven't", "hasn't", "didn't", "doesn't"], "correct": 0 },
+        { "q": "\"_____ you ever tried Korean food?\"", "options": ["Did", "Do", "Have", "Has"], "correct": 2 }
+      ]
+    },
+    {
+      "id": "present-perfect-continuous",
+      "title": "Present Perfect Continuous",
+      "tag": "Ongoing since the past — အတိတ်ကစလို့ ဆက်ဖြစ်နေတာ",
+      "explain": [
+        "Present Perfect Continuous (have/has been + V-ing) ကို အတိတ်မှာစလို့ အခုထိ ဆက်လက်ဖြစ်နေတဲ့ အလုပ်အတွက် သုံးပါတယ်။ Duration (ကြာချိန်) ကို အလေးပေးပြောတာပါ။",
+        "ဥပမာ — \"I have been studying English for two years.\" (ငါ အင်္ဂလိပ်စာကို နှစ်နှစ်ကြာ လေ့လာနေတာ၊ အခုထိ ဆက်လေ့လာနေတယ်)"
+      ],
+      "structure": [
+        { "label": "Positive", "value": "Subject + have/has been + V-ing" },
+        { "label": "Negative", "value": "Subject + have/has + not + been + V-ing" },
+        { "label": "Question", "value": "Have/Has + Subject + been + V-ing ?" }
+      ],
+      "examples": [
+        { "en": "She has been working here since 2020.", "mm": "သူမ ၂၀၂၀ ကစပြီး ဒီမှာ အလုပ်လုပ်နေတာ (အခုထိ)" },
+        { "en": "I have been waiting for an hour.", "mm": "ငါ တစ်နာရီကြာ စောင့်နေတာ" },
+        { "en": "They haven't been sleeping well lately.", "mm": "သူတို့ အခုတလော အိပ်ရေးမဝကြပါ" },
+        { "en": "Have you been studying all night?", "mm": "တညလုံး စာလေ့လာနေတာလား?" }
+      ],
+      "tips": [
+        "Present Perfect Continuous က action ကို emphasize လုပ်ပြီး၊ Present Perfect က result/completion ကို emphasize လုပ်ပါတယ် — \"I have painted the wall\" (ပြီးသွားပြီ) vs \"I have been painting the wall\" (ပင်ပန်းနေတဲ့သဘော)"
+      ],
+      "quiz": [
+        { "q": "\"She _____ working here since 2020.\"", "options": ["has been", "have been", "is", "was"], "correct": 0 },
+        { "q": "\"I _____ for an hour.\" (wait)", "options": ["am waiting", "have been waiting", "waited", "wait"], "correct": 1 },
+        { "q": "\"_____ you been studying all night?\"", "options": ["Did", "Do", "Have", "Has"], "correct": 2 },
+        { "q": "Which sentence emphasizes duration?", "options": ["I have painted the wall.", "I have been painting the wall.", "I paint the wall.", "I painted the wall."], "correct": 1 }
+      ]
+    },
+    {
+      "id": "past-simple",
+      "title": "Past Simple",
+      "tag": "Finished actions — ပြီးသွားပြီးသား အတိတ်",
+      "explain": [
+        "Past Simple ကို အတိတ်မှာ စပြီးပြီးဆုံးသွားတဲ့ လုပ်ဆောင်ချက်အတွက် သုံးပါတယ်။ Time အတိအကျ (yesterday, last week, in 2020) နဲ့ အများဆုံး တွဲသုံးပါတယ်။",
+        "Regular verb တွေမှာ -ed ထည့်ပါတယ် (played, watched)။ Irregular verb တွေက အမှတ်ထားရပါမယ် (go → went, eat → ate)။"
+      ],
+      "structure": [
+        { "label": "Positive", "value": "Subject + V2 (past form)" },
+        { "label": "Negative", "value": "Subject + did + not + V1" },
+        { "label": "Question", "value": "Did + Subject + V1 ?" }
+      ],
+      "examples": [
+        { "en": "They played football yesterday.", "mm": "သူတို့ မနေ့ ဘောလုံးကန်ခဲ့ကြတယ်" },
+        { "en": "She went to Bagan last year.", "mm": "သူမ မနှစ်က ပုဂံကို သွားခဲ့တယ် (went = irregular)" },
+        { "en": "I didn't watch the movie.", "mm": "ငါ ရုပ်ရှင်ကို မကြည့်ခဲ့ပါ" },
+        { "en": "Did you finish your homework?", "mm": "အိမ်စာ ပြီးပြီလား?" }
+      ],
+      "tips": [
+        "Negative/Question ဝါကျတွေမှာ Verb က V1 (base form) ပြန်ဖြစ်သွားတယ် — \"Did you went\" ❌, \"Did you go\" ✅"
+      ],
+      "quiz": [
+        { "q": "\"They _____ football yesterday.\"", "options": ["play", "plays", "played", "playing"], "correct": 2 },
+        { "q": "\"She _____ to Bagan last year.\" (go)", "options": ["go", "goes", "went", "going"], "correct": 2 },
+        { "q": "\"I _____ watch the movie.\"", "options": ["don't", "doesn't", "didn't", "not"], "correct": 2 },
+        { "q": "\"_____ you finish your homework?\"", "options": ["Do", "Does", "Did", "Were"], "correct": 2 }
+      ]
+    },
+    {
+      "id": "past-continuous",
+      "title": "Past Continuous",
+      "tag": "Action in progress in the past — အတိတ်က ဖြစ်နေဆဲ",
+      "explain": [
+        "Past Continuous (was/were + V-ing) ကို အတိတ်ကအချိန်တစ်ခုမှာ ဖြစ်နေဆဲဖြစ်တဲ့အရာအတွက် သုံးပါတယ်။",
+        "အဓိကအသုံး ၃ မျိုး — (၁) တခြားအဖြစ်အပျက်တစ်ခုက ကြားဖြတ်ဝင်လာတာ \"I was cooking when the phone rang.\" (၂) နှစ်ခုတစ်ပြိုင်နက် ဖြစ်နေတာ \"She was singing while he was playing the guitar.\" (၃) အတိတ်ကအချိန်အတိအကျမှာ ဖြစ်နေဆဲ \"I was playing the game all night yesterday.\""
+      ],
+      "structure": [
+        { "label": "Positive", "value": "Subject + was/were + V-ing" },
+        { "label": "Negative", "value": "Subject + was/were + not + V-ing" },
+        { "label": "Question", "value": "Was/Were + Subject + V-ing ?" }
+      ],
+      "examples": [
+        { "en": "I was walking to school when it started to rain.", "mm": "ငါ ကျောင်းသွားနေတုန်း မိုးစတွေရွာလာတယ်" },
+        { "en": "She was talking on the phone while she was cooking.", "mm": "သူမ ဖုန်းပြောနေတုန်း ထမင်းချက်နေတယ် (နှစ်ခုတစ်ပြိုင်နက်)" },
+        { "en": "They weren't sleeping at midnight.", "mm": "သူတို့ သန်းခေါင်အချိန်မှာ အိပ်မပျော်နေကြပါ" },
+        { "en": "Was he studying at 9 pm?", "mm": "ညနေ ၉ နာရီမှာ သူ စာလေ့လာနေသလား?" }
+      ],
+      "tips": [
+        "\"when\" ပါတဲ့ clause မှာ Past Simple (short action) ကို သုံးတတ်ပြီး၊ \"while\" ပါတဲ့ clause မှာ Past Continuous (long/background action) ကို သုံးတတ်ပါတယ် — \"While I was cooking, the phone rang.\""
+      ],
+      "quiz": [
+        { "q": "\"I _____ to school when it started to rain.\"", "options": ["walk", "walked", "was walking", "am walking"], "correct": 2 },
+        { "q": "\"They _____ football when the ball broke the window.\"", "options": ["play", "played", "were playing", "are playing"], "correct": 2 },
+        { "q": "\"While she _____ the piano, her brother was singing.\"", "options": ["played", "plays", "was playing", "play"], "correct": 2 },
+        { "q": "\"_____ he studying at 9 pm?\"", "options": ["Did", "Was", "Is", "Does"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "past-perfect",
+      "title": "Past Perfect",
+      "tag": "Earlier than another past action — အတိတ်ထဲက အရင်ဖြစ်",
+      "explain": [
+        "Past Perfect (had + V3) ကို အတိတ်ထဲက အခြားအဖြစ်အပျက်တစ်ခု မဖြစ်ခင် ပြီးဆုံးသွားခဲ့ပြီးသားအရာအတွက် သုံးပါတယ် — \"Past of the Past\" လို့ မှတ်ထားနိုင်ပါတယ်။",
+        "ဥပမာ — \"When I arrived, she had already left.\" (ငါရောက်တော့ သူမ ထွက်သွားနှင့်ပြီးသား)"
+      ],
+      "structure": [
+        { "label": "Positive", "value": "Subject + had + V3" },
+        { "label": "Negative", "value": "Subject + had + not + V3" },
+        { "label": "Question", "value": "Had + Subject + V3 ?" }
+      ],
+      "examples": [
+        { "en": "When I arrived, she had already left.", "mm": "ငါရောက်တော့ သူမ ထွက်သွားနှင့်ပြီးသား" },
+        { "en": "He had finished his homework before dinner.", "mm": "ညစာစားခင် သူ့အိမ်စာ ပြီးနှင့်ပြီးသား" },
+        { "en": "They hadn't met before that day.", "mm": "သူတို့ အဲဒီနေ့မတိုင်ခင် ဘယ်တော့မှ မတွေ့ဖူးကြပါ" },
+        { "en": "Had you visited Mandalay before this trip?", "mm": "ဒီအခြီသွားခင် မန္တလေး အရင်သွားဖူးလား?" }
+      ],
+      "tips": [
+        "Past Perfect ကို Past Simple နဲ့ အတွဲသုံးပြီး အစီအစဉ်ဖော်ပြတတ်ပါတယ် — \"He had finished (ပထမ) his homework before dinner (ဒုတိယ).\""
+      ],
+      "quiz": [
+        { "q": "\"He _____ his homework before dinner.\"", "options": ["finish", "finishes", "had finished", "finishing"], "correct": 2 },
+        { "q": "\"When I arrived, she _____ already left.\"", "options": ["has", "have", "had", "was"], "correct": 2 },
+        { "q": "\"They _____ met before that day.\"", "options": ["didn't", "hadn't", "haven't", "weren't"], "correct": 1 },
+        { "q": "\"_____ you visited Mandalay before this trip?\"", "options": ["Did", "Have", "Had", "Were"], "correct": 2 }
+      ]
+    },
+    {
+      "id": "past-perfect-continuous",
+      "title": "Past Perfect Continuous",
+      "tag": "Duration before another past action — အတိတ်ထဲက ကြာကြာဖြစ်နေတာ",
+      "explain": [
+        "Past Perfect Continuous (had been + V-ing) ကို အတိတ်မှာ တစ်ခုခုမဖြစ်မီ အချိန်တစ်ခုထိ ဆက်လုပ်နေခဲ့တာကို ပြောချင်ရင် သုံးပါတယ်။",
+        "အသုံး ၃ မျိုး — (၁) duration before something else happened: \"She had been studying for two hours before her friend arrived.\" (၂) cause and effect: \"He was tired because he had been working all day.\" (၃) background action: \"They had been playing football until it started raining.\""
+      ],
+      "structure": [
+        { "label": "Positive", "value": "Subject + had been + V-ing" },
+        { "label": "Negative", "value": "Subject + had not (hadn't) been + V-ing" },
+        { "label": "Question", "value": "Had + Subject + been + V-ing ?" }
+      ],
+      "examples": [
+        { "en": "She had been studying for two hours before her friend arrived.", "mm": "သူငယ်ချင်းမရောက်ခင် နှစ်နာရီစာ စာလေ့လာနေခဲ့တယ်" },
+        { "en": "He was tired because he had been working all day.", "mm": "တနေကုန် အလုပ်လုပ်နေခဲ့တာကြောင့် သူ ပင်ပန်းနေတယ်" },
+        { "en": "They had been playing football until it started raining.", "mm": "မိုးမစချင် သူတို့ ဘောလုံးကန်နေခဲ့ကြတယ်" },
+        { "en": "Had you been waiting long before she arrived?", "mm": "သူမမရောက်ခင် ကြာကြာစောင့်နေခဲ့သလား?" }
+      ],
+      "tips": [
+        "Common mistake — \"I had been to school yesterday.\" ❌ (single action အတွက် Past Simple ပဲသုံးပါ) → \"I went to school yesterday.\" ✅"
+      ],
+      "quiz": [
+        { "q": "\"He was tired because he _____ all day.\" (work)", "options": ["worked", "was working", "had been working", "has worked"], "correct": 2 },
+        { "q": "\"She _____ for two hours before the exam started.\" (study)", "options": ["studied", "was studying", "had been studying", "has studied"], "correct": 2 },
+        { "q": "Which sentence is correct?", "options": ["I had been to school yesterday.", "I went to school yesterday.", "I have been to school yesterday.", "I was go to school yesterday."], "correct": 1 },
+        { "q": "\"They _____ football until it started raining.\" (play)", "options": ["played", "were playing", "had been playing", "have played"], "correct": 2 }
+      ]
+    },
+    {
+      "id": "future-simple",
+      "title": "Future Simple",
+      "tag": "Predictions & plans — အနာဂတ်အကြောင်း",
+      "explain": [
+        "Future Simple ကို \"will + V1\" ပုံစံနဲ့ ဖော်ပြပြီး prediction (ခန့်မှန်းချက်)၊ promise (ကတိ)၊ spontaneous decision (ချက်ချင်းဆုံးဖြတ်ချက်) တွေအတွက် သုံးပါတယ်။",
+        "\"be going to + V1\" ကိုလည်း အနာဂတ် plan/intention ပြောချင်ရင် သုံးနိုင်ပါတယ် — \"I am going to visit my grandmother this weekend.\""
+      ],
+      "structure": [
+        { "label": "Positive", "value": "Subject + will + V1" },
+        { "label": "Negative", "value": "Subject + will + not (won't) + V1" },
+        { "label": "Question", "value": "Will + Subject + V1 ?" }
+      ],
+      "examples": [
+        { "en": "I will call you tomorrow.", "mm": "မနက်ဖြန် ငါ ဖုန်းဆက်မယ်" },
+        { "en": "It will probably rain this evening.", "mm": "ဒီညနေ မိုးရွာဖို့ များတယ် (ခန့်မှန်းချက်)" },
+        { "en": "She won't be at the meeting.", "mm": "သူမ အစည်းအဝေးမှာ ပါမှာ မဟုတ်ပါ" },
+        { "en": "Will you help me with this?", "mm": "ဒါကို ငါ့ကို ကူညီပေးမလား?" }
+      ],
+      "tips": [
+        "\"will\" ကို promise/decision အတွက်သုံးပြီး \"be going to\" ကို အရင်ကတည်းက စီစဉ်ထားတဲ့အရာအတွက် သုံးပါတယ် — \"I will help you\" (အခုဆုံးဖြတ်) vs \"I am going to study medicine\" (အရင်ကစီစဉ်ထား)"
+      ],
+      "quiz": [
+        { "q": "\"I _____ call you tomorrow.\"", "options": ["will", "am", "do", "did"], "correct": 0 },
+        { "q": "\"She _____ be at the meeting.\" (negative)", "options": ["won't", "doesn't", "isn't", "didn't"], "correct": 0 },
+        { "q": "\"_____ you help me with this?\"", "options": ["Do", "Are", "Will", "Did"], "correct": 2 },
+        { "q": "Which sentence expresses a prior plan?", "options": ["I will help you.", "I am going to study medicine.", "I help you.", "I helped you."], "correct": 1 }
+      ]
+    }
+  ]
+}

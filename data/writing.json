@@ -1,0 +1,131 @@
+{
+  "id": "writing",
+  "title": "Writing & Commas",
+  "titleMM": "Writing နှင့် Comma များ",
+  "lessons": [
+    {
+      "id": "comma-rules",
+      "title": "Comma Rules",
+      "tag": "Comma အသုံးပြုနည်း",
+      "explain": [
+        "Comma (,) ကို list ရေးတဲ့အခါ၊ clause ၂ခုကို ဆက်တဲ့အခါ၊ introductory word/phrase နောက်မှာ၊ နဲ့ non-essential information (appositive/relative clause) ကို ဖော်ပြတဲ့အခါ သုံးပါတယ်။",
+        "FANBOYS conjunction (for, and, nor, but, or, yet, so) ဖြင့် independent clause ၂ခုကို ဆက်တဲ့အခါ conjunction ရှေ့မှာ comma ထည့်ပါတယ် — \"I wanted to go, but it was raining.\"",
+        "Introductory word/phrase (ဥပမာ — \"However,\", \"After the movie,\") နောက်မှာ comma ထည့်ပါတယ်။ List item တွေကြားမှာလည်း comma ခြားပါတယ်။"
+      ],
+      "structure": [
+        { "label": "Lists", "value": "I bought apples, bananas, and oranges." },
+        { "label": "Two clauses + FANBOYS", "value": "I wanted to go, but it was raining." },
+        { "label": "Introductory phrase", "value": "After the movie, we went to dinner." },
+        { "label": "Non-essential info", "value": "My sister, who lives in Tokyo, is visiting us." }
+      ],
+      "examples": [
+        { "en": "I wanted to go, but it was raining.", "mm": "FANBOYS (but) ရှေ့မှာ comma" },
+        { "en": "After the movie, we went to dinner.", "mm": "introductory phrase နောက်မှာ comma" },
+        { "en": "My sister, who lives in Tokyo, is visiting us.", "mm": "non-essential info ကို comma ၂ ခုနဲ့ ပိတ်" },
+        { "en": "I need pens, paper, and notebooks.", "mm": "list items ကို comma ခြား" }
+      ],
+      "tips": [
+        "Comma splice ကို သတိထားပါ — independent clause ၂ခုကို comma တစ်ခုတည်းနဲ့ မချိတ်ပါနဲ့ (\"I am tired, I want to sleep.\" ❌) — period ဒါမှမဟုတ် FANBOYS conjunction သုံးပါ။"
+      ],
+      "quiz": [
+        { "q": "Choose the correctly punctuated sentence.", "options": ["I wanted to go but it was raining.", "I wanted to go, but it was raining.", "I wanted to go but, it was raining.", "I wanted, to go but it was raining."], "correct": 1 },
+        { "q": "Which sentence uses commas correctly in a list?", "options": ["I bought apples bananas and oranges.", "I bought apples, bananas and, oranges.", "I bought apples, bananas, and oranges.", "I bought, apples bananas and oranges."], "correct": 2 },
+        { "q": "Choose the sentence with the introductory phrase punctuated correctly.", "options": ["After the movie we went to dinner.", "After the movie, we went to dinner.", "After, the movie we went to dinner.", "After the movie we, went to dinner."], "correct": 1 },
+        { "q": "Which sentence correctly sets off non-essential information?", "options": ["My sister who lives in Tokyo is visiting us.", "My sister, who lives in Tokyo is visiting us.", "My sister, who lives in Tokyo, is visiting us.", "My sister who lives, in Tokyo, is visiting us."], "correct": 2 }
+      ]
+    },
+    {
+      "id": "transition-words",
+      "title": "Transition Words",
+      "tag": "ဆက်စပ်စကားများ",
+      "explain": [
+        "Transition word တွေက idea တစ်ခုနဲ့တစ်ခုကြားက ဆက်စပ်မှုကို ပြတဲ့ စကားလုံး/စကားစုတွေပါ — paragraph တွေကို ပိုပြီး ချောမွေ့စွာ ဆက်စပ်အောင် ကူညီပေးပါတယ်။",
+        "Addition (ထပ်ဖြည့်): also, in addition, furthermore, moreover — Contrast (ဆန့်ကျင်): however, on the other hand, but, although",
+        "Cause/Effect (အကြောင်း/အကျိုးဆက်): because, therefore, as a result, so — Examples (ဥပမာပေး): for example, for instance, such as — Time (အစီအစဉ်): first, next, then, finally, meanwhile"
+      ],
+      "structure": [
+        { "label": "Addition", "value": "also, in addition, furthermore, moreover" },
+        { "label": "Contrast", "value": "however, on the other hand, but, although" },
+        { "label": "Cause/Effect", "value": "because, therefore, as a result, so" },
+        { "label": "Examples", "value": "for example, for instance, such as" },
+        { "label": "Time/Sequence", "value": "first, next, then, finally, meanwhile" },
+        { "label": "Clarification", "value": "in other words, that is" }
+      ],
+      "examples": [
+        { "en": "I love studying English. However, grammar can be tricky.", "mm": "However = contrast (ဆန့်ကျင်)" },
+        { "en": "She studied hard; therefore, she passed the exam.", "mm": "therefore = cause/effect (အကျိုးဆက်)" },
+        { "en": "First, gather your materials. Then, start writing.", "mm": "First/Then = time/sequence (အစီအစဉ်)" },
+        { "en": "He likes many sports, for example, football and basketball.", "mm": "for example = giving examples" }
+      ],
+      "tips": [
+        "Transition word တွေကို သုံးတဲ့အခါ overuse မလုပ်ပါနဲ့ — paragraph တစ်ခုစီကို ဆက်စပ်ချင်တဲ့ idea အလိုက် သင့်လျော်တာကိုသာ ရွေးချယ်သုံးပါ။"
+      ],
+      "quiz": [
+        { "q": "\"I love studying English. _____, grammar can be tricky.\"", "options": ["However", "Also", "Therefore", "First"], "correct": 0 },
+        { "q": "\"She studied hard; _____, she passed the exam.\"", "options": ["but", "however", "therefore", "for example"], "correct": 2 },
+        { "q": "\"He likes many sports, _____, football and basketball.\"", "options": ["however", "for example", "therefore", "first"], "correct": 1 },
+        { "q": "Which word shows addition?", "options": ["However", "Moreover", "Therefore", "Finally"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "writing-introductions",
+      "title": "Writing a Good Introduction",
+      "tag": "Intro ရေးနည်း — Hook & Thesis",
+      "explain": [
+        "Introduction paragraph ရဲ့ အဓိကအစိတ်အပိုင်း ၂ ခုက Hook နဲ့ Thesis Statement ပါ။",
+        "Hook ဆိုတာ ဖတ်သူစိတ်ဝင်စားအောင် ဆွဲဆောင်တဲ့ ဖွင့်ဆိုဝါကျပါ — မေးခွန်း (question)၊ စိတ်ဝင်စားစရာ အချက်အလက် (surprising fact) သို့မဟုတ် ပုံပြင်ဖြင့် စတင်နိုင်ပါတယ်။",
+        "Thesis statement ဆိုတာ essay တစ်ခုလုံးရဲ့ main idea ကို တစ်ဝါကျတည်းနဲ့ ဖော်ပြတာဖြစ်ပြီး ဘာအကြောင်းရေးမှာလဲဆိုတာ ဖတ်သူသိနိုင်ပါတယ်။ Introduction paragraph ရဲ့ နောက်ဆုံးဝါကျမှာ ထားလေ့ရှိပါတယ်။"
+      ],
+      "structure": [
+        { "label": "Hook (Question)", "value": "Have you ever wondered why dogs are called man's best friend?" },
+        { "label": "Hook (Fact)", "value": "Did you know pizza was invented in Naples, Italy?" },
+        { "label": "Thesis", "value": "In this essay, I will explain three reasons why dogs make great pets." }
+      ],
+      "examples": [
+        { "en": "Have you ever wondered why dogs are called man's best friend?", "mm": "Hook (Question) — မေးခွန်းနဲ့ ဖွင့်" },
+        { "en": "Pizza is one of the most popular foods in the world.", "mm": "Hook (Fact/Statement)" },
+        { "en": "In this essay, I will explain three reasons why dogs make great pets.", "mm": "Thesis statement — ဘာရေးမှာလဲ ပြတယ်" },
+        { "en": "This essay will discuss the history, ingredients, and popularity of pizza.", "mm": "Thesis — body paragraph ၃ ခုကို hint ပြတယ်" }
+      ],
+      "tips": [
+        "Thesis statement ကို Introduction paragraph ရဲ့ နောက်ဆုံးဝါကျအနေနဲ့ ထားလေ့ရှိပါတယ် — Body paragraph တွေက ဒီ thesis ကို ထောက်ခံပေးရမယ်။"
+      ],
+      "quiz": [
+        { "q": "What is the purpose of a \"hook\"?", "options": ["To end the essay", "To grab the reader's attention", "To list sources", "To repeat the title"], "correct": 1 },
+        { "q": "What is a thesis statement?", "options": ["A question for the reader", "A summary of the conclusion", "A sentence stating the essay's main idea", "A list of grammar rules"], "correct": 2 },
+        { "q": "Which is an example of a hook?", "options": ["In conclusion, dogs are great.", "Have you ever wondered why dogs are man's best friend?", "The essay has three parts.", "Thank you for reading."], "correct": 1 },
+        { "q": "Where is the thesis statement usually placed?", "options": ["First sentence of the essay", "Last sentence of the introduction", "Middle of the conclusion", "In the title"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "essay-outline",
+      "title": "Outlining an Essay",
+      "tag": "Essay Outline — Intro/Body/Conclusion",
+      "explain": [
+        "Essay outline ဆိုတာ ဆောင်းပါးကို စရေးခင်း အကြမ်းဖျင်း plan လုပ်တာပါ — Introduction, Body Paragraphs, Conclusion ဆိုတဲ့ ၃ ပိုင်း ပါဝင်ပါတယ်။",
+        "Introduction = Hook + Thesis statement။ Body Paragraph တစ်ခုစီမှာ Topic sentence (paragraph ရဲ့ main idea) တစ်ခုနဲ့ Supporting details/examples ပါဝင်ရပါတယ်။",
+        "Conclusion = Thesis ကို ပြန်ပြောခြင်း + main point တွေကို အကျဉ်းချုပ်ခြင်း + နောက်ဆုံး အတွေးအခေါ် (final thought) တစ်ခု ပါဝင်ပါတယ်။"
+      ],
+      "structure": [
+        { "label": "Introduction", "value": "Hook + Thesis statement" },
+        { "label": "Body Paragraph 1-3", "value": "Topic sentence + supporting details/examples (idea တစ်ခုစီ)" },
+        { "label": "Conclusion", "value": "Restate thesis + summary + final thought" }
+      ],
+      "examples": [
+        { "en": "Topic sentence: Dogs are loyal companions.", "mm": "Body paragraph ရဲ့ topic sentence — paragraph အဓိက idea" },
+        { "en": "For example, dogs often protect their owners from danger.", "mm": "Supporting detail/example" },
+        { "en": "In conclusion, dogs make wonderful pets for many reasons.", "mm": "Conclusion — thesis ကို ပြန်ပြောတာ" },
+        { "en": "Each body paragraph should focus on one main idea.", "mm": "Outline ရေးတဲ့အခါ paragraph တစ်ခုစီကို idea တစ်ခုစီ ပေးပါ" }
+      ],
+      "tips": [
+        "Outline ရေးခြင်းက Essay ရေးချိန် အချိန်ကုန်သက်သာစေပြီး idea တွေကို စနစ်တကျ စီစဉ်ထားနိုင်စေပါတယ်။"
+      ],
+      "quiz": [
+        { "q": "What are the three main parts of an essay?", "options": ["Hook, Body, Thesis", "Introduction, Body, Conclusion", "Title, Quote, Summary", "Question, Answer, Example"], "correct": 1 },
+        { "q": "What should each body paragraph focus on?", "options": ["Multiple unrelated ideas", "One main idea with supporting details", "Only the thesis statement", "A list of transition words"], "correct": 1 },
+        { "q": "What does a conclusion usually do?", "options": ["Introduce new ideas", "Restate the thesis and summarize", "Ask a new question", "List more examples"], "correct": 1 },
+        { "q": "Why is outlining useful before writing?", "options": ["It makes the essay longer", "It organizes ideas before writing", "It replaces the introduction", "It is required for grammar"], "correct": 1 }
+      ]
+    }
+  ]
+}

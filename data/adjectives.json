@@ -1,0 +1,74 @@
+{
+  "id": "adjectives",
+  "title": "Adjectives",
+  "titleMM": "နာမဝိသေသနများ",
+  "lessons": [
+    {
+      "id": "comparative-superlative",
+      "title": "Comparative & Superlative",
+      "tag": "bigger, biggest — နှိုင်းယှဉ်ခြင်း",
+      "explain": [
+        "Adjective (နာမဝိသေသန) ကို အရာနှစ်ခုကို နှိုင်းယှဉ်ချင်ရင် Comparative (-er / more) ပုံစံ၊ အများဆုံးတစ်ခုကို ပြောချင်ရင် Superlative (-est / most) ပုံစံပြောင်းရပါတယ်။",
+        "Syllable တစ်လုံးတို/ နှစ်လုံးတိုတို (y နဲ့ဆုံ) — -er/-est ထည့်ပါတယ် (tall → taller → tallest, easy → easier → easiest)။ Syllable ၂ လုံးအထက် — more/most ထည့်ပါတယ် (beautiful → more beautiful → most beautiful)။",
+        "Irregular adjective များလည်း ရှိပါတယ် — good → better → best, bad → worse → worst (ပုံစံအတိုင်း ပြောင်းမရပါ၊ အသစ်အမှတ်ထားရပါမယ်)။"
+      ],
+      "structure": [
+        { "label": "Short", "value": "tall → taller → the tallest" },
+        { "label": "Ending -y", "value": "easy → easier → the easiest (y → i)" },
+        { "label": "Long", "value": "beautiful → more beautiful → the most beautiful" },
+        { "label": "Equal", "value": "as + adjective + as (e.g. as strong as)" },
+        { "label": "Irregular", "value": "good→better→best, bad→worse→worst" }
+      ],
+      "examples": [
+        { "en": "This phone is better than my old one.", "mm": "ဒီဖုန်းက ငါ့ဖုန်းအဟောင်းထက် ပိုကောင်းတယ် (good→better)" },
+        { "en": "That was the worst movie I have ever seen.", "mm": "အဆိုးဆုံးကြည့်ဖူးတဲ့ ရုပ်ရှင်ပါ (bad→worst)" },
+        { "en": "She is taller than her sister.", "mm": "သူမက ညီမထက် ပိုမြင့်တယ်" },
+        { "en": "This is the easiest question on the test.", "mm": "ဒါက စာမေးပွဲထဲက အလွယ်ဆုံးမေးခွန်းပါ" },
+        { "en": "He is as strong as his father.", "mm": "သူဟာ သူ့အဖေလို ခွန်အားရှိတယ် (equal comparison)" }
+      ],
+      "tips": [
+        "\"than\" ကို Comparative မှာသုံးပြီး \"the + -est/most\" ကို Superlative မှာသုံးပါ — \"better than\" / \"the best\""
+      ],
+      "quiz": [
+        { "q": "\"This phone is _____ than my old one.\" (good)", "options": ["gooder", "more good", "better", "best"], "correct": 2 },
+        { "q": "\"That was the _____ movie I have ever seen.\" (bad)", "options": ["bad", "worse", "worst", "baddest"], "correct": 2 },
+        { "q": "\"She is _____ than her sister.\" (tall)", "options": ["taller", "tallest", "more tall", "most tall"], "correct": 0 },
+        { "q": "\"This is the _____ question on the test.\" (easy)", "options": ["easyer", "more easy", "easiest", "easier"], "correct": 2 },
+        { "q": "\"He is as _____ as his father.\" (strong)", "options": ["strong", "stronger", "strongest", "more strong"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "order-and-types",
+      "title": "Adjective Order & Types",
+      "tag": "Order & types — အစီအစဉ်နှင့် အမျိုးအစားများ",
+      "explain": [
+        "Adjective တစ်ခုထက်ပိုပြီး Noun တစ်ခုကို ဖော်ပြတဲ့အခါ အစီအစဉ်တကျ ရေးထားရပါတယ်။ အများဆုံးသုံးတဲ့ အစီအစဉ်က — Opinion → Size → Age → Shape → Color → Origin → Material → Noun ပါ။",
+        "ဥပမာ — \"a beautiful (opinion) small (size) old (age) wooden (material) table\"",
+        "Adjective တွေက Noun ရှေ့မှာထားသလို (a big house) Verb to be နောက်မှာလည်း ထားနိုင်ပါတယ် (The house is big.)"
+      ],
+      "structure": [
+        { "label": "Opinion", "value": "beautiful, nice, ugly" },
+        { "label": "Size", "value": "big, small, tall" },
+        { "label": "Age", "value": "old, young, new" },
+        { "label": "Shape", "value": "round, square" },
+        { "label": "Color", "value": "red, blue, green" },
+        { "label": "Origin", "value": "Burmese, Korean, French" },
+        { "label": "Material", "value": "wooden, plastic, cotton" }
+      ],
+      "examples": [
+        { "en": "She bought a beautiful small wooden box.", "mm": "opinion → size → material → noun" },
+        { "en": "He wore an old blue Korean jacket.", "mm": "age → color → origin → noun" },
+        { "en": "The house is big and modern.", "mm": "Adjective တွေက be verb နောက်မှာလည်း ရတယ်" }
+      ],
+      "tips": [
+        "အစီအစဉ် မမှန်ရင် ဝါကျက မထူးဆန်းပါ ဒါပေမယ့် Native speaker တွေနားထောင်ရင် ထူးဆန်းနေတယ်ဆိုတာ သတိချပ်ပါ — \"a beautiful Korean car\" ✅ မှန်ပါတယ်၊ \"a Korean beautiful car\" ❌ မမှန်ပါ။"
+      ],
+      "quiz": [
+        { "q": "Choose the correct order.", "options": ["a wooden beautiful small box", "a beautiful small wooden box", "a small beautiful wooden box", "a beautiful wooden small box"], "correct": 1 },
+        { "q": "\"old\" describes a noun's ______.", "options": ["size", "age", "shape", "color"], "correct": 1 },
+        { "q": "\"This cotton shirt is comfortable.\" — \"cotton\" describes the shirt's ______.", "options": ["size", "material", "shape", "origin"], "correct": 1 },
+        { "q": "Which sentence has the correct adjective order?", "options": ["a Korean beautiful car", "a beautiful Korean car", "a car beautiful Korean", "Korean a beautiful car"], "correct": 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "pronouns",
+  "title": "Pronouns",
+  "titleMM": "နာမ်စားများ",
+  "lessons": [
+    {
+      "id": "personal-possessive",
+      "title": "Personal & Possessive Pronouns",
+      "tag": "I, my, mine — အသုံးနည်း",
+      "explain": [
+        "Personal Pronoun (ပုဂ္ဂိုလ်စားနာမ်စား) တွေက Noun အစားသုံးပါတယ် — I, you, he, she, it, we, they (subject) နဲ့ me, you, him, her, it, us, them (object)။",
+        "Possessive Pronoun/Adjective တွေက ပိုင်ဆိုင်မှုပြတဲ့ နာမ်စားတွေဖြစ်ပြီး — my/mine, your/yours, his, her/hers, its, our/ours, their/theirs ပါ။",
+        "Possessive Adjective (my, your, his...) က Noun ရှေ့မှာထားရပြီး Possessive Pronoun (mine, yours...) ကတော့ Noun မလိုပါ — \"This is my book.\" vs \"This book is mine.\""
+      ],
+      "structure": [
+        { "label": "Subject", "value": "I, you, he, she, it, we, they" },
+        { "label": "Object", "value": "me, you, him, her, it, us, them" },
+        { "label": "Poss. Adj.", "value": "my, your, his, her, its, our, their (+ noun)" },
+        { "label": "Poss. Pronoun", "value": "mine, yours, his, hers, its, ours, theirs (no noun)" }
+      ],
+      "examples": [
+        { "en": "She gave the book to him.", "mm": "She = subject, him = object" },
+        { "en": "This is my bag.", "mm": "my = possessive adjective (+ noun \"bag\")" },
+        { "en": "Is this bag yours or mine?", "mm": "yours/mine = possessive pronoun (noun မလိုပါ)" },
+        { "en": "Their house is bigger than ours.", "mm": "their = adjective (+house), ours = pronoun" }
+      ],
+      "tips": [
+        "\"his\" က Possessive Adjective အဖြစ်လည်း Possessive Pronoun အဖြစ်လည်း ပုံစံတူညီပါတယ် — \"his book\" (adjective) vs \"This book is his.\" (pronoun)"
+      ],
+      "quiz": [
+        { "q": "\"Is this _____ bag or mine?\" (belonging to him)", "options": ["he", "his", "him", "himself"], "correct": 1 },
+        { "q": "\"This book is _____.\" (belongs to me)", "options": ["my", "mine", "me", "I"], "correct": 1 },
+        { "q": "\"_____ gave the present to her.\" (subject form)", "options": ["Him", "He", "His", "Himself"], "correct": 1 },
+        { "q": "\"Their car is newer than _____.\" (belonging to us)", "options": ["our", "ours", "us", "we"], "correct": 1 }
+      ]
+    },
+    {
+      "id": "reflexive",
+      "title": "Reflexive Pronouns",
+      "tag": "myself, themselves — ကိုယ်ပြန်နာမ်စား",
+      "explain": [
+        "Reflexive Pronoun တွေက -self/-selves နဲ့ဆုံးပြီး — myself, yourself, himself, herself, itself, ourselves, yourselves, themselves ပါ။",
+        "Subject နဲ့ Object တူညီတဲ့အခါ (လုပ်သူနဲ့ ခံစားသူ တစ်ဦးတည်း) သုံးပါတယ် — \"I cut myself.\" (ငါ ငါ့ကိုယ်ကို ဖြတ်မိတယ်)",
+        "\"by + reflexive\" က \"အကူအညီမရှိပဲ၊ တစ်ယောက်တည်း\" ဆိုတဲ့ အဓိပ္ပာယ်ပါ — \"They did it by themselves.\" Emphasis (ကိုယ်တိုင်) အတွက်လည်း သုံးနိုင်ပါတယ် — \"I made this cake myself.\""
+      ],
+      "structure": [
+        { "label": "I", "value": "myself" },
+        { "label": "You", "value": "yourself / yourselves" },
+        { "label": "He / She / It", "value": "himself / herself / itself" },
+        { "label": "We / They", "value": "ourselves / themselves" }
+      ],
+      "examples": [
+        { "en": "They did it by themselves.", "mm": "အကူအညီမရှိပဲ သူတို့ဘာသာ လုပ်ခဲ့ကြတယ်" },
+        { "en": "She looked at herself in the mirror.", "mm": "သူမ မှန်ထဲမှာ သူမကိုယ်သူမ ကြည့်တယ်" },
+        { "en": "I taught myself to play guitar.", "mm": "ငါ့ဘာသာငါ ဂစ်တာတီးနည်းသင်ခဲ့တယ်" },
+        { "en": "Be careful, don't hurt yourself.", "mm": "ဂရုစိုက်ပါ၊ ကိုယ့်ကိုယ်ကို မဖြစ်စေနဲ့" }
+      ],
+      "tips": [
+        "Reflexive pronoun ကို မလိုအပ်ဘဲ မသုံးပါနဲ့ — \"I washed myself the car\" ❌, \"I washed the car myself\" ✅ (emphasis ဖြစ်ရင် ဝါကျနောက်ဆုံးမှာ ထားသင့်ပါတယ်)"
+      ],
+      "quiz": [
+        { "q": "\"They did it by _____.\" (no one helped)", "options": ["them", "themselves", "their", "theirs"], "correct": 1 },
+        { "q": "\"I cut _____ while cooking.\"", "options": ["me", "my", "myself", "I"], "correct": 2 },
+        { "q": "\"She made the dress _____.\" (emphasis — she did it herself)", "options": ["her", "hers", "herself", "she"], "correct": 2 },
+        { "q": "\"Take care of _____.\" (talking to one person)", "options": ["yourself", "yourselves", "themselves", "itself"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "relative",
+      "title": "Relative Pronouns",
+      "tag": "who, which, that, whose — ဆက်စပ်နာမ်စား",
+      "explain": [
+        "Relative Pronoun တွေက Clause နှစ်ခုကို ဆက်သွယ်ပေးပြီး Noun တစ်ခုအကြောင်း ထပ်ရှင်းပြတဲ့အခါ သုံးပါတယ် — who, whom, whose, which, that။",
+        "who = လူ (subject), whom = လူ (object, formal), whose = ပိုင်ဆိုင်မှု, which = အရာဝတ္ထု/တိရစ္ဆာန်, that = လူ/အရာဝတ္ထု နှစ်မျိုးစလုံး (informal)",
+        "Comma ပါတဲ့ Relative Clause (non-defining) က အပိုဆောင်းအချက်အလက်ဖြစ်ပြီး၊ Comma မပါတဲ့ (defining) က Noun ကို ဖော်ပြရန် မရှိမဖြစ်လိုအပ်ပါတယ်။"
+      ],
+      "structure": [
+        { "label": "who", "value": "people (subject) — The teacher who explained the lesson is new." },
+        { "label": "whom", "value": "people (object, formal) — The man whom you met is my uncle." },
+        { "label": "whose", "value": "possession — The student whose book is lost is upset." },
+        { "label": "which", "value": "things/animals — The book which I borrowed was great." },
+        { "label": "that", "value": "people or things (informal) — The car that I bought is fast." }
+      ],
+      "examples": [
+        { "en": "The teacher who explained the lesson is new.", "mm": "who = ဆရာ (လူ) ကို ရည်ညွှန်း" },
+        { "en": "The book which I borrowed was great.", "mm": "which = စာအုပ် (အရာဝတ္ထု) ကို ရည်ညွှန်း" },
+        { "en": "My brother, who lives in Yangon, is a teacher.", "mm": "comma ပါတဲ့ non-defining clause (အပိုဆောင်းအချက်အလက်)" },
+        { "en": "Who are you talking to?", "mm": "who = informal object form" }
+      ],
+      "tips": [
+        "\"whose\" ဟာ \"who's\" (who is) နဲ့ မတူပါ — \"whose\" က ပိုင်ဆိုင်မှု ဖော်ပြတာပါ (\"The student whose book is lost...\")"
+      ],
+      "quiz": [
+        { "q": "\"The teacher _____ explained the lesson is new.\"", "options": ["who", "which", "whose", "whom"], "correct": 0 },
+        { "q": "\"_____ are you talking to?\" (informal)", "options": ["Who", "Whom", "Whose", "Which"], "correct": 0 },
+        { "q": "\"The book _____ I borrowed was great.\"", "options": ["who", "whose", "which", "whom"], "correct": 2 },
+        { "q": "Choose the correctly punctuated sentence.", "options": ["My brother, who lives in Yangon is a teacher.", "My brother who lives in Yangon, is a teacher.", "My brother, who lives in Yangon, is a teacher.", "My brother who, lives in Yangon is a teacher."], "correct": 2 }
+      ]
+    }
+  ]
+}

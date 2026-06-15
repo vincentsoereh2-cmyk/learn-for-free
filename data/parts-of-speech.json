@@ -1,0 +1,155 @@
+{
+  "id": "parts-of-speech",
+  "title": "Parts of Speech",
+  "titleMM": "အင်္ဂလိပ်စာ အခြေခံ စာလုံးအမျိုးအစားများ",
+  "lessons": [
+    {
+      "id": "overview",
+      "title": "Parts of Speech Overview",
+      "tag": "အင်္ဂလိပ်စာ အခြေခံ ၈ မျိုး",
+      "explain": [
+        "အင်္ဂလိပ်စာမှာ စာလုံးတိုင်းကို အလုပ်အလိုက် အမျိုးအစား ၈ မျိုး ခွဲထားပါတယ်။ ဒါတွေကို 'Parts of Speech' လို့ခေါ်ပါတယ်။",
+        "ဝါကျတစ်ခုကို ဖွဲ့စည်းတဲ့အခါ၊ ဒီ ၈ မျိုးကို သိထားရင် ဝါကျဖွဲ့နည်း (Grammar) တွေကို ပိုမြန်ပိုလွယ်အောင် သင်ယူနိုင်ပါမယ်။",
+        "အောက်က Table မှာ အမျိုးအစားတစ်ခုစီရဲ့ အဓိပ္ပာယ်နဲ့ ဥပမာစာလုံးတွေကို ကြည့်ပါ။"
+      ],
+      "structure": [
+        { "label": "Noun", "value": "နာမ် — လူ၊ နေရာ၊ အရာဝတ္ထု (dog, school, happiness)" },
+        { "label": "Verb", "value": "ကြိယာ — လုပ်ဆောင်ချက် (run, is, think)" },
+        { "label": "Adjective", "value": "နာမဝိသေသန — ဖော်ပြချက် (happy, blue, tall)" },
+        { "label": "Adverb", "value": "ကြိယာဝိသေသန — ဘယ်လို/ဘယ်တော့/ဘယ်မှာ (quickly, always, here)" },
+        { "label": "Pronoun", "value": "နာမ်စား — နာမ်အစား (he, she, it, they)" },
+        { "label": "Preposition", "value": "ဝိဘတ် — နေရာ/အချိန် (in, on, at)" },
+        { "label": "Conjunction", "value": "ဆက်စပ်စကား — ချိတ်ဆက် (and, but, because)" },
+        { "label": "Interjection", "value": "အာမေဋိတ် — ခံစားချက်ပြ (wow!, ouch!)" }
+      ],
+      "examples": [
+        { "en": "The happy dog runs quickly in the park.", "mm": "happy = adjective, dog = noun, runs = verb, quickly = adverb, in = preposition" },
+        { "en": "She and I went home because it was late.", "mm": "and, because = conjunctions, she/I = pronouns" },
+        { "en": "Wow! That cake looks delicious.", "mm": "Wow = interjection, delicious = adjective" }
+      ],
+      "tips": [
+        "စာလုံးတစ်ခု ဝါကျတစ်ခုထဲမှာ ဘယ်နေရာရောက်နေလဲဆိုတာ ကြည့်ပြီးမှ Part of Speech ကို ဆုံးဖြတ်ပါ — တစ်ခါတစ်လေ စာလုံးတစ်ခုတည်းက Noun ဖြစ်နိုင်သလို Verb လည်း ဖြစ်နိုင်ပါတယ် (ဥပမာ: 'work')။"
+      ],
+      "quiz": [
+        {
+          "q": "Which word is a verb in: \"She quickly finished her homework.\"?",
+          "options": ["She", "quickly", "finished", "homework"],
+          "correct": 2
+        },
+        {
+          "q": "\"Happy\" is an example of a/an ______.",
+          "options": ["Noun", "Verb", "Adjective", "Adverb"],
+          "correct": 2
+        },
+        {
+          "q": "Which word is a preposition in: \"The cat is under the table.\"?",
+          "options": ["cat", "is", "under", "table"],
+          "correct": 2
+        },
+        {
+          "q": "\"They\" in \"They went home\" is a ______.",
+          "options": ["Noun", "Pronoun", "Adjective", "Verb"],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "nouns",
+      "title": "Nouns in Detail",
+      "tag": "Noun အမျိုးအစားများ",
+      "explain": [
+        "Noun (နာမ်) ဆိုတာ လူ၊ တိရစ္ဆာန်၊ နေရာ၊ အရာဝတ္ထု ဒါမှမဟုတ် အတွေးအခေါ်တစ်ခုခုကို ခေါ်တဲ့ စာလုံးပါ။",
+        "Countable Noun တွေက ရေတွက်နိုင်တဲ့ အရာတွေဖြစ်ပြီး Singular/Plural ပြောင်းနိုင်ပါတယ် (book → books)။ Uncountable Noun တွေကတော့ ရေတွက်မရတဲ့ အရာတွေဖြစ်ပြီး Plural form မရှိပါ (water, advice, money)။",
+        "Proper Noun တွေက အထူးအမည်တွေဖြစ်ပြီး စာလုံးအကြီးနဲ့ အမြဲစရေးရပါတယ် (Myanmar, Monday, John)။ Collective Noun တွေက လူ/အရာဝတ္ထု အုပ်စုကို တစ်ခုတည်းအနေနဲ့ ခေါ်တာပါ (a team, a family)။"
+      ],
+      "structure": [
+        { "label": "Common", "value": "အများသုံးအမည် — dog, city, teacher" },
+        { "label": "Proper", "value": "အထူးအမည် (Capital letter) — Myanmar, John, Monday" },
+        { "label": "Countable", "value": "ရေတွက်နိုင် — one apple, two apples" },
+        { "label": "Uncountable", "value": "ရေတွက်မရ (Plural မရှိ) — water, rice, advice" },
+        { "label": "Collective", "value": "အုပ်စုလိုက်ခေါ် — a team, a family, a group" }
+      ],
+      "examples": [
+        { "en": "My teacher is from Myanmar.", "mm": "teacher = common noun, Myanmar = proper noun" },
+        { "en": "I drank some water this morning.", "mm": "water = uncountable — \"a water\" လို့ မပြောရပါ" },
+        { "en": "The whole family went to the market together.", "mm": "family = collective noun (အုပ်စုလိုက်)" },
+        { "en": "She has three brothers and one sister.", "mm": "brothers/sister = countable nouns" }
+      ],
+      "tips": [
+        "Uncountable noun တွေနဲ့ 'a/an' မသုံးပါနဲ့ — အစား 'some', 'a lot of', 'a piece of' စတာတွေသုံးပါ (a piece of advice)။"
+      ],
+      "quiz": [
+        {
+          "q": "Which word is a proper noun in: \"My friend Maria lives in Yangon.\"?",
+          "options": ["friend", "Maria", "lives", "in"],
+          "correct": 1
+        },
+        {
+          "q": "Which noun is uncountable?",
+          "options": ["book", "apple", "water", "dog"],
+          "correct": 2
+        },
+        {
+          "q": "\"A group of students\" — \"group\" is a ______ noun.",
+          "options": ["Proper", "Collective", "Uncountable", "Pronoun"],
+          "correct": 1
+        },
+        {
+          "q": "Choose the correct plural: \"one child, two ______.\"",
+          "options": ["childs", "childes", "children", "child"],
+          "correct": 2
+        }
+      ]
+    },
+    {
+      "id": "be-vs-do",
+      "title": "Verb to Be vs Verb to Do",
+      "tag": "am/is/are vs do/does/did",
+      "explain": [
+        "Verb to be (am/is/are/was/were) နဲ့ Verb to do (do/does/did) ဟာ နှစ်မျိုးစလုံး Helping Verb (အကူပြကြိယာ) အဖြစ်လည်း Main Verb (အဓိကကြိယာ) အဖြစ်လည်း သုံးနိုင်ပါတယ်။ ဒါပေမယ့် အသုံးပြုပုံ မတူပါ။",
+        "Verb to be ကို feeling (ခံစားမှု)၊ identity (မည်သူ/မည်သည်)၊ place (နေရာ) ပြောချင်ရင် Main Verb အနေနဲ့ သုံးပါတယ် — \"I am happy.\", \"She is a student.\", \"They are at home.\"",
+        "\"Be\" + V-ing ပါရင်တော့ \"be\" က Helping Verb ဖြစ်ပြီး V-ing က Main Verb ဖြစ်ပါတယ် — \"He is cooking.\"",
+        "Verb to do ကို habit (အကျင့်)၊ action (လုပ်ဆောင်ချက်)၊ routine (နေ့စဉ်လုပ်ငန်း) ပြောတဲ့ Negative/Question ဝါကျတွေမှာ Helping Verb အနေနဲ့ သုံးပါတယ် — \"She doesn't play football.\", \"Do you go to school every day?\""
+      ],
+      "structure": [
+        { "label": "Be (+)", "value": "Subject + am/is/are + adjective/noun/place" },
+        { "label": "Be (−)", "value": "Subject + am/is/are + not + ..." },
+        { "label": "Be (?)", "value": "Am/Is/Are + Subject + ...?" },
+        { "label": "Do (+)", "value": "Subject + V1 (+s/es)" },
+        { "label": "Do (−)", "value": "Subject + don't/doesn't + V1" },
+        { "label": "Do (?)", "value": "Do/Does + Subject + V1?" }
+      ],
+      "examples": [
+        { "en": "He is cooking dinner.", "mm": "is = helping verb, cooking = main verb (-ing form)" },
+        { "en": "She doesn't play the guitar.", "mm": "doesn't = helping verb, play = main verb" },
+        { "en": "Is she a teacher?", "mm": "be = main verb ဖြစ်တယ် (identity ပြောတာ)" },
+        { "en": "Does he play football?", "mm": "does = helping verb, play = main verb (action)" }
+      ],
+      "tips": [
+        "\"Be\" ကို main verb အနေနဲ့ သုံးတဲ့အခါ နောက်မှာ adjective (happy)၊ noun (a teacher) ဒါမှမဟုတ် place (at home) လိုက်ပါတယ် — V-ing မပါပါ။"
+      ],
+      "quiz": [
+        {
+          "q": "Choose the correct sentence.",
+          "options": ["She is play the guitar.", "She plays the guitar.", "She do play the guitar.", "She is plays guitar."],
+          "correct": 1
+        },
+        {
+          "q": "\"They ______ at home now.\"",
+          "options": ["do", "does", "are", "did"],
+          "correct": 2
+        },
+        {
+          "q": "\"______ she like coffee?\"",
+          "options": ["Is", "Are", "Does", "Do"],
+          "correct": 2
+        },
+        {
+          "q": "In \"He is cooking\", \"is\" is the ______ verb.",
+          "options": ["main", "helping", "only", "no"],
+          "correct": 1
+        }
+      ]
+    }
+  ]
+}

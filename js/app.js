@@ -27,172 +27,184 @@
   });
 
   /* ---------------------------------------------------------
-     2. Test / Quiz logic
+     2. Lesson topics — metadata + data loading
      --------------------------------------------------------- */
 
-  // Sample question bank — Burmese explanations, universal English examples.
-  const QUESTION_BANK = {
-    tenses: [
-      {
-        q: '"She _____ to school every morning."',
-        options: ['go', 'goes', 'going', 'gone'],
-        correct: 1,
-      },
-      {
-        q: '"They _____ football yesterday."',
-        options: ['play', 'plays', 'played', 'playing'],
-        correct: 2,
-      },
-      {
-        q: '"I _____ watching TV right now."',
-        options: ['am', 'is', 'are', 'be'],
-        correct: 0,
-      },
-      {
-        q: '"By next year, she _____ here for 10 years."',
-        options: ['will live', 'will have lived', 'lives', 'lived'],
-        correct: 1,
-      },
-      {
-        q: '"He _____ his homework before dinner."',
-        options: ['finish', 'finishes', 'had finished', 'finishing'],
-        correct: 2,
-      },
-    ],
-    adjectives: [
-      {
-        q: '"This phone is _____ than my old one." (good)',
-        options: ['gooder', 'more good', 'better', 'best'],
-        correct: 2,
-      },
-      {
-        q: '"That was the _____ movie I have ever seen."',
-        options: ['bad', 'worse', 'worst', 'baddest'],
-        correct: 2,
-      },
-      {
-        q: '"She is _____ than her sister." (tall)',
-        options: ['taller', 'tallest', 'more tall', 'most tall'],
-        correct: 0,
-      },
-      {
-        q: '"This is the _____ question on the test." (easy)',
-        options: ['easyer', 'more easy', 'easiest', 'easier'],
-        correct: 2,
-      },
-      {
-        q: '"He is as _____ as his father." (strong)',
-        options: ['strong', 'stronger', 'strongest', 'more strong'],
-        correct: 0,
-      },
-    ],
-    pronouns: [
-      {
-        q: '"Is this _____ bag or mine?" (belonging to him)',
-        options: ['he', 'his', 'him', 'himself'],
-        correct: 1,
-      },
-      {
-        q: '"The teacher _____ explained the lesson is new."',
-        options: ['who', 'which', 'whose', 'whom'],
-        correct: 0,
-      },
-      {
-        q: '"_____ are you talking to?"',
-        options: ['Who', 'Whom', 'Whose', 'Which'],
-        correct: 0,
-      },
-      {
-        q: '"The book _____ I borrowed was great."',
-        options: ['who', 'whose', 'which', 'whom'],
-        correct: 2,
-      },
-      {
-        q: '"They did it by _____." (no one helped)',
-        options: ['them', 'themselves', 'their', 'theirs'],
-        correct: 1,
-      },
-    ],
-    prepositions: [
-      {
-        q: '"I will meet you _____ Monday."',
-        options: ['in', 'on', 'at', 'by'],
-        correct: 1,
-      },
-      {
-        q: '"The meeting starts _____ 9 AM."',
-        options: ['in', 'on', 'at', 'for'],
-        correct: 2,
-      },
-      {
-        q: '"She has lived here _____ 2019."',
-        options: ['since', 'for', 'from', 'at'],
-        correct: 0,
-      },
-      {
-        q: '"The cat is hiding _____ the table."',
-        options: ['on', 'under', 'at', 'to'],
-        correct: 1,
-      },
-      {
-        q: '"We are going _____ vacation next week."',
-        options: ['on', 'in', 'at', 'to'],
-        correct: 0,
-      },
-    ],
-    commas: [
-      {
-        q: 'Which sentence uses commas correctly?',
-        options: [
-          'I bought apples, oranges and, bananas.',
-          'I bought apples, oranges, and bananas.',
-          'I bought, apples oranges and bananas.',
-          'I bought apples oranges, and, bananas.',
-        ],
-        correct: 1,
-      },
-      {
-        q: 'Which sentence uses a comma correctly with "however"?',
-        options: [
-          'I was tired, however I kept working.',
-          'I was tired however, I kept working.',
-          'I was tired; however, I kept working.',
-          'I was tired however I kept, working.',
-        ],
-        correct: 2,
-      },
-      {
-        q: 'Choose the correctly punctuated sentence.',
-        options: [
-          'My brother, who lives in Yangon is a teacher.',
-          'My brother who lives in Yangon, is a teacher.',
-          'My brother, who lives in Yangon, is a teacher.',
-          'My brother who, lives in Yangon is a teacher.',
-        ],
-        correct: 2,
-      },
-      {
-        q: 'Choose the correctly punctuated sentence.',
-        options: [
-          'After the rain stopped, we went outside.',
-          'After the rain stopped we, went outside.',
-          'After, the rain stopped we went outside.',
-          'After the rain, stopped we went outside.',
-        ],
-        correct: 0,
-      },
-      {
-        q: 'Choose the correctly punctuated sentence.',
-        options: [
-          'Yes I understand the lesson.',
-          'Yes, I understand the lesson.',
-          'Yes I, understand the lesson.',
-          'Yes understand, I the lesson.',
-        ],
-        correct: 1,
-      },
-    ],
+  const TOPICS = {
+    'parts-of-speech': { title: 'Parts of Speech', file: 'data/parts-of-speech.json' },
+    tenses: { title: 'Tenses', file: 'data/tenses.json' },
+    adjectives: { title: 'Adjectives', file: 'data/adjectives.json' },
+    pronouns: { title: 'Pronouns', file: 'data/pronouns.json' },
+    prepositions: { title: 'Prepositions', file: 'data/prepositions.json' },
+    'wh-questions': { title: 'Wh- Questions', file: 'data/wh-questions.json' },
+    writing: { title: 'Writing & Commas', file: 'data/writing.json' },
   };
+
+  const topicDataCache = {};
+  let currentTopicId = null;
+  let currentLessonId = null;
+
+  async function loadTopic(topicId) {
+    if (topicDataCache[topicId]) return topicDataCache[topicId];
+    const meta = TOPICS[topicId];
+    if (!meta) return null;
+    try {
+      const res = await fetch(meta.file);
+      const data = await res.json();
+      topicDataCache[topicId] = data;
+      return data;
+    } catch (err) {
+      console.warn('Could not load topic data:', topicId, err);
+      return null;
+    }
+  }
+
+  /* ---------------------------------------------------------
+     3. Lesson list view
+     --------------------------------------------------------- */
+
+  const lessonsEyebrow = document.getElementById('lessonsEyebrow');
+  const lessonsTitle = document.getElementById('lessonsTitle');
+  const lessonListEl = document.getElementById('lessonList');
+  const lessonsBackBtn = document.getElementById('lessonsBackBtn');
+
+  async function openTopic(topicId, lessonId) {
+    currentTopicId = topicId;
+    const meta = TOPICS[topicId];
+    lessonsEyebrow.textContent = 'Topic';
+    lessonsTitle.textContent = meta ? meta.title : topicId;
+    lessonListEl.innerHTML = '<div class="empty-state"><div class="empty-state__icon">⏳</div><div>Lessons များ Load လုပ်နေပါသည်...</div></div>';
+    showView('lessons');
+
+    const data = await loadTopic(topicId);
+    if (!data || !Array.isArray(data.lessons)) {
+      lessonListEl.innerHTML = '<div class="empty-state"><div class="empty-state__icon">⚠️</div><div>Lesson များ ဖွင့်ဖို့ မအောင်မြင်ပါ။ Internet/Offline cache ကို စစ်ကြည့်ပါ။</div></div>';
+      return;
+    }
+
+    lessonsTitle.textContent = data.titleMM ? `${data.title} — ${data.titleMM}` : data.title;
+    renderLessonList(data);
+
+    if (lessonId) {
+      const lesson = data.lessons.find((l) => l.id === lessonId);
+      if (lesson) {
+        openLesson(lesson);
+        return;
+      }
+    }
+  }
+
+  function renderLessonList(data) {
+    lessonListEl.innerHTML = '';
+    data.lessons.forEach((lesson, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'lesson-card';
+      btn.innerHTML = `
+        <div class="lesson-card__index">${i + 1}</div>
+        <div class="lesson-card__body">
+          <div class="lesson-card__title">${lesson.title}</div>
+          <div class="lesson-card__tag">${lesson.tag || ''}</div>
+        </div>
+        <div class="lesson-card__arrow">›</div>
+      `;
+      btn.addEventListener('click', () => openLesson(lesson));
+      lessonListEl.appendChild(btn);
+    });
+  }
+
+  lessonsBackBtn.addEventListener('click', () => showView('home'));
+
+  /* ---------------------------------------------------------
+     4. Lesson detail view
+     --------------------------------------------------------- */
+
+  const lessonContentEl = document.getElementById('lessonContent');
+  const lessonBackBtn = document.getElementById('lessonBackBtn');
+
+  function openLesson(lesson) {
+    currentLessonId = lesson.id;
+    const meta = TOPICS[currentTopicId];
+
+    let html = '';
+    html += `<div class="lesson-detail__eyebrow">${meta ? meta.title : ''}</div>`;
+    html += `<h1 class="lesson-detail__title">${lesson.title}</h1>`;
+
+    if (Array.isArray(lesson.explain) && lesson.explain.length) {
+      html += '<div class="lesson-block"><div class="lesson-block__title">ရှင်းလင်းချက်</div>';
+      lesson.explain.forEach((p) => {
+        html += `<p>${p}</p>`;
+      });
+      html += '</div>';
+    }
+
+    if (Array.isArray(lesson.structure) && lesson.structure.length) {
+      html += '<div class="lesson-block"><div class="lesson-block__title">Structure</div><div class="lesson-structure">';
+      lesson.structure.forEach((row) => {
+        html += `
+          <div class="lesson-structure__row">
+            <span class="lesson-structure__label">${row.label}</span>
+            <span class="lesson-structure__value">${row.value}</span>
+          </div>
+        `;
+      });
+      html += '</div></div>';
+    }
+
+    if (Array.isArray(lesson.examples) && lesson.examples.length) {
+      html += '<div class="lesson-block"><div class="lesson-block__title">Examples</div><div class="lesson-examples">';
+      lesson.examples.forEach((ex) => {
+        html += `
+          <div class="lesson-example">
+            <div class="lesson-example__en">${ex.en}</div>
+            <div class="lesson-example__mm">${ex.mm || ''}</div>
+          </div>
+        `;
+      });
+      html += '</div></div>';
+    }
+
+    if (Array.isArray(lesson.tips) && lesson.tips.length) {
+      html += '<div class="lesson-block"><div class="lesson-block__title">မှတ်စရာ</div><ul class="lesson-tips">';
+      lesson.tips.forEach((tip) => {
+        html += `<li>${tip}</li>`;
+      });
+      html += '</ul></div>';
+    }
+
+    if (Array.isArray(lesson.quiz) && lesson.quiz.length) {
+      html += '<button class="btn btn--primary mb-lg" id="lessonPracticeBtn">ဒီ Lesson ကို Quiz လေ့ကျင့်မယ် ▸</button>';
+    }
+
+    lessonContentEl.innerHTML = html;
+    showView('lesson');
+
+    const practiceBtn = document.getElementById('lessonPracticeBtn');
+    if (practiceBtn) {
+      practiceBtn.addEventListener('click', () => {
+        setQuizCategory(currentTopicId);
+        showView('test');
+      });
+    }
+  }
+
+  lessonBackBtn.addEventListener('click', () => showView('lessons'));
+
+  /* ---------------------------------------------------------
+     5. Bento cards — open topic / lesson
+     --------------------------------------------------------- */
+
+  document.querySelectorAll('.bento-card[data-topic]').forEach((card) => {
+    card.addEventListener('click', () => {
+      openTopic(card.dataset.topic, card.dataset.lesson || null);
+    });
+  });
+
+  /* ---------------------------------------------------------
+     6. Test / Quiz logic
+     --------------------------------------------------------- */
+
+  // Question bank — built dynamically from each topic's lesson quiz arrays.
+  let QUESTION_BANK = {};
 
   const chipRow = document.getElementById('testCategoryChips');
   const quizQuestionEl = document.getElementById('quizQuestion');
@@ -205,8 +217,30 @@
   let currentIndex = 0;
   let selectedOption = null;
 
+  function setQuizCategory(category) {
+    if (!category) return;
+    currentCategory = category;
+    currentIndex = 0;
+    if (chipRow) {
+      chipRow.querySelectorAll('.chip').forEach((c) => {
+        c.classList.toggle('is-active', c.dataset.category === category);
+      });
+    }
+    loadQuestion();
+  }
+
   function loadQuestion() {
     const set = QUESTION_BANK[currentCategory];
+
+    if (!set || !set.length) {
+      quizQuestionEl.textContent = 'Quiz Load လုပ်နေပါသည်... ခဏစောင့်ပါ။';
+      quizOptionsEl.innerHTML = '';
+      quizCounterEl.textContent = '';
+      quizProgressFill.style.width = '0%';
+      quizNextBtn.disabled = true;
+      return;
+    }
+
     const item = set[currentIndex];
 
     selectedOption = null;
@@ -248,6 +282,7 @@
 
   quizNextBtn.addEventListener('click', () => {
     const set = QUESTION_BANK[currentCategory];
+    if (!set || !set.length) return;
     if (currentIndex < set.length - 1) {
       currentIndex += 1;
       loadQuestion();
@@ -270,11 +305,34 @@
     });
   }
 
-  // Initial render
+  // Show a "loading" placeholder immediately, then fetch all topic data.
   loadQuestion();
 
+  (async () => {
+    const ids = Object.keys(TOPICS);
+    await Promise.all(ids.map((id) => loadTopic(id)));
+
+    const bank = {};
+    ids.forEach((id) => {
+      const data = topicDataCache[id];
+      const questions = [];
+      if (data && Array.isArray(data.lessons)) {
+        data.lessons.forEach((lesson) => {
+          if (Array.isArray(lesson.quiz)) {
+            lesson.quiz.forEach((q) => questions.push(q));
+          }
+        });
+      }
+      bank[id] = questions;
+    });
+
+    QUESTION_BANK = bank;
+    currentIndex = 0;
+    loadQuestion();
+  })();
+
   /* ---------------------------------------------------------
-     3. About — reset progress
+     7. About — reset progress
      --------------------------------------------------------- */
 
   const resetBtn = document.getElementById('resetProgressBtn');
@@ -289,7 +347,7 @@
   }
 
   /* ---------------------------------------------------------
-     4. Service Worker registration (offline support)
+     8. Service Worker registration (offline support)
      --------------------------------------------------------- */
 
   if ('serviceWorker' in navigator) {

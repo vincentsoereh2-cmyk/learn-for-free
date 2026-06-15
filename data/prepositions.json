@@ -1,0 +1,105 @@
+{
+  "id": "prepositions",
+  "title": "Prepositions",
+  "titleMM": "ဝိဘတ်များ",
+  "lessons": [
+    {
+      "id": "time",
+      "title": "Prepositions of Time",
+      "tag": "in, on, at — အချိန်ပြ",
+      "explain": [
+        "Preposition of time တွေက အချိန်ကာလကို ပြောချင်ရင် သုံးပါတယ်။ \"at\" ကို အချိန်အတိအကျ (at 9 AM, at noon, at night, at the moment) အတွက် သုံးပါတယ်။",
+        "\"on\" ကို နေ့ရက်/ရက်စွဲ (on Monday, on July 4th, on my birthday) အတွက် သုံးပြီး \"in\" ကို လ/နှစ်/ရာသီ/ကာလရှည် (in July, in 2024, in winter, in the morning) အတွက် သုံးပါတယ်။",
+        "\"since\"၊ \"for\"၊ \"by\"၊ \"until\" တို့ကိုလည်း Time expression တွေနဲ့ အတွဲသုံးတတ်ပါတယ်။"
+      ],
+      "structure": [
+        { "label": "at", "value": "exact time/points — at 9 AM, at noon, at night" },
+        { "label": "on", "value": "days/dates — on Monday, on July 4th, on my birthday" },
+        { "label": "in", "value": "months/years/seasons — in July, in 2024, in winter, in the morning" },
+        { "label": "since / for", "value": "since 2020 (starting point), for two hours (duration)" },
+        { "label": "by / until", "value": "by 5 PM (deadline), until Friday (up to a point)" }
+      ],
+      "examples": [
+        { "en": "I will meet you on Monday.", "mm": "on + day" },
+        { "en": "The meeting starts at 9 AM.", "mm": "at + exact time" },
+        { "en": "She has lived here since 2019.", "mm": "since + starting point" },
+        { "en": "We finished the project by 5 PM.", "mm": "by + deadline" }
+      ],
+      "tips": [
+        "Trick to remember: \"at\" = ⏰ point, \"on\" = 📅 day, \"in\" = 📦 longer period (month/year/season)"
+      ],
+      "quiz": [
+        { "q": "\"I will meet you _____ Monday.\"", "options": ["in", "on", "at", "by"], "correct": 1 },
+        { "q": "\"The meeting starts _____ 9 AM.\"", "options": ["in", "on", "at", "for"], "correct": 2 },
+        { "q": "\"She has lived here _____ 2019.\"", "options": ["since", "for", "from", "at"], "correct": 0 },
+        { "q": "\"My birthday is _____ July.\"", "options": ["at", "on", "in", "for"], "correct": 2 }
+      ]
+    },
+    {
+      "id": "place",
+      "title": "Prepositions of Place",
+      "tag": "in, on, at, under — နေရာပြ",
+      "explain": [
+        "Preposition of place တွေက နေရာကို ပြောချင်ရင် သုံးပါတယ်။ \"in\" ကို နေရာအတွင်း (in the box, in Yangon, in the room) အတွက် သုံးပါတယ်။",
+        "\"on\" ကို မျက်နှာပြင်အပေါ် (on the table, on the wall, on the floor) အတွက် သုံးပြီး \"at\" ကို နေရာအတိအကျ/လိပ်စာ (at the bus stop, at home, at school) အတွက် သုံးပါတယ်။",
+        "\"under\"၊ \"next to\"၊ \"between\"၊ \"behind\"၊ \"in front of\" တွေကတော့ Object တစ်ခုနှင့်တစ်ခု ဆက်စပ်နေရာကို ဖော်ပြတဲ့ preposition တွေပါ။"
+      ],
+      "structure": [
+        { "label": "in", "value": "enclosed spaces — in the box, in Yangon, in the room" },
+        { "label": "on", "value": "surfaces — on the table, on the wall, on the floor" },
+        { "label": "at", "value": "specific points/addresses — at the bus stop, at home, at school" },
+        { "label": "under / over", "value": "below / above — under the table, over the bridge" },
+        { "label": "between / among", "value": "between two things, among many things" },
+        { "label": "next to / behind / in front of", "value": "relative position to something" }
+      ],
+      "examples": [
+        { "en": "The cat is hiding under the table.", "mm": "under = အောက်" },
+        { "en": "There is a picture on the wall.", "mm": "on = မျက်နှာပြင်အပေါ်" },
+        { "en": "She is waiting at the bus stop.", "mm": "at = နေရာအတိအကျ" },
+        { "en": "The bank is between the school and the market.", "mm": "between = ၂ ခုကြား" }
+      ],
+      "tips": [
+        "\"in\" = 📦 inside something, \"on\" = 🟫 on top of a surface, \"at\" = 📍 a specific point — အကောင်းဆုံး ပုံစံစဲ ရွေးရိုက်ပါ"
+      ],
+      "quiz": [
+        { "q": "\"The cat is hiding _____ the table.\"", "options": ["on", "under", "at", "to"], "correct": 1 },
+        { "q": "\"There is a picture _____ the wall.\"", "options": ["in", "on", "at", "under"], "correct": 1 },
+        { "q": "\"She is waiting _____ the bus stop.\"", "options": ["in", "on", "at", "between"], "correct": 2 },
+        { "q": "\"The bank is _____ the school and the market.\"", "options": ["between", "among", "under", "next"], "correct": 0 }
+      ]
+    },
+    {
+      "id": "movement",
+      "title": "Prepositions of Movement",
+      "tag": "to, into, through — ရွေ့လျားမှုပြ",
+      "explain": [
+        "Preposition of movement တွေက လှုပ်ရှားမှု/ဦးတည်ချက်ကို ပြောချင်ရင် သုံးပါတယ်။ \"to\" ကို ဦးတည်ရာ (go to school, drive to Yangon) အတွက် သုံးပါတယ်။",
+        "\"into\" ကို အတွင်းသို့ဝင်ခြင်း (walk into the room)၊ \"onto\" ကို မျက်နှာပြင်အပေါ်သို့တက်ခြင်း (jump onto the bed)၊ \"through\" ကို အတွင်းမှဖြတ်သန်းခြင်း (walk through the tunnel)၊ \"across\" ကို တစ်ဖက်သို့ဖြတ်ကျော်ခြင်း (swim across the river) အတွက် သုံးပါတယ်။",
+        "\"on vacation\" / \"on a trip\" ဆိုတာ ခရီးသွားခြင်းအတွက် သုံးတဲ့ စကားစုပါ။"
+      ],
+      "structure": [
+        { "label": "to", "value": "direction/destination — go to school, drive to Yangon" },
+        { "label": "into", "value": "entering — walk into the room" },
+        { "label": "onto", "value": "moving onto a surface — jump onto the bed" },
+        { "label": "through", "value": "passing inside something — walk through the tunnel" },
+        { "label": "across", "value": "from one side to the other — swim across the river" },
+        { "label": "on (vacation/trip)", "value": "We are going on vacation." }
+      ],
+      "examples": [
+        { "en": "We are going on vacation next week.", "mm": "on vacation = ခရီးစဉ်" },
+        { "en": "He walked into the classroom late.", "mm": "into = အတွင်းသို့ဝင်" },
+        { "en": "The cat jumped onto the table.", "mm": "onto = အပေါ်သို့တက်" },
+        { "en": "They swam across the river.", "mm": "across = တစ်ဖက်သို့ဖြတ်ကျော်" }
+      ],
+      "tips": [
+        "\"into\" = ဝင်သွားတဲ့ direction ပါတယ်၊ \"in\" = နေရာထဲမှာရှိ — \"He ran into the room\" (movement) vs \"He is in the room\" (place)"
+      ],
+      "quiz": [
+        { "q": "\"We are going _____ vacation next week.\"", "options": ["on", "in", "at", "to"], "correct": 0 },
+        { "q": "\"He walked _____ the classroom late.\"", "options": ["to", "into", "onto", "across"], "correct": 1 },
+        { "q": "\"The cat jumped _____ the table.\"", "options": ["into", "through", "onto", "between"], "correct": 2 },
+        { "q": "\"They swam _____ the river.\"", "options": ["across", "into", "on", "under"], "correct": 0 }
+      ]
+    }
+  ]
+}

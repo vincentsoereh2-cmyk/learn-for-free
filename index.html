@@ -30,7 +30,7 @@
       <section aria-labelledby="continue-heading">
         <div class="section-title" id="continue-heading">ဆက်လက်သင်ယူရန်</div>
         <div class="bento-grid bento-grid--single mb-lg">
-          <div class="bento-card bento-card--accent">
+          <button class="bento-card bento-card--accent" data-topic="tenses" data-lesson="present-simple">
             <div class="bento-card__icon">📚</div>
             <div class="bento-card__title">Tenses — Present Simple</div>
             <div class="bento-card__desc">မနေ့က စလေ့ကျသင်ခဲ့တဲ့ Lesson ကို ဆက်ပါ။ "He works every day." လို Sentence တွေကို လေ့ကျင့်မယ်။</div>
@@ -38,7 +38,7 @@
               <div class="progress__fill" style="width: 45%;"></div>
             </div>
             <div class="bento-card__meta">45% ပြီးပါပြီ</div>
-          </div>
+          </button>
         </div>
       </section>
 
@@ -49,56 +49,81 @@
         </div>
 
         <div class="bento-grid">
-          <div class="bento-card">
+          <button class="bento-card" data-topic="parts-of-speech">
             <div class="bento-card__icon">🔤</div>
             <div class="bento-card__title">Parts of Speech</div>
-            <div class="bento-card__desc">Noun, Verb, Adjective တွေကို ခွဲခြားသိရှိမယ်။</div>
-            <div class="bento-card__meta">12 Lessons</div>
-          </div>
+            <div class="bento-card__desc">Noun, Verb to Be/Do တွေကို ခွဲခြားသိရှိမယ်။</div>
+            <div class="bento-card__meta">3 Lessons</div>
+          </button>
 
-          <div class="bento-card bento-card--accent2">
+          <button class="bento-card bento-card--accent2" data-topic="tenses">
             <div class="bento-card__icon">⏰</div>
             <div class="bento-card__title">Tenses</div>
             <div class="bento-card__desc">Past, Present, Future ကို ဘယ်လို အသုံးပြုရမလဲ။</div>
-            <div class="bento-card__meta">8 Lessons</div>
-          </div>
+            <div class="bento-card__meta">9 Lessons</div>
+          </button>
 
-          <div class="bento-card">
+          <button class="bento-card" data-topic="adjectives">
             <div class="bento-card__icon">✨</div>
             <div class="bento-card__title">Adjectives</div>
             <div class="bento-card__desc">Comparative & Superlative — "bigger, biggest"</div>
-            <div class="bento-card__meta">6 Lessons</div>
-          </div>
+            <div class="bento-card__meta">2 Lessons</div>
+          </button>
 
-          <div class="bento-card bento-card--success">
+          <button class="bento-card bento-card--success" data-topic="pronouns">
             <div class="bento-card__icon">🔁</div>
             <div class="bento-card__title">Pronouns</div>
             <div class="bento-card__desc">He, She, They, Who, Which — အသုံးနည်း</div>
-            <div class="bento-card__meta">5 Lessons</div>
-          </div>
+            <div class="bento-card__meta">3 Lessons</div>
+          </button>
 
-          <div class="bento-card">
+          <button class="bento-card" data-topic="prepositions">
             <div class="bento-card__icon">📍</div>
             <div class="bento-card__title">Prepositions</div>
             <div class="bento-card__desc">In, On, At — နေရာနှင့်အချိန် ပြောနည်း</div>
-            <div class="bento-card__meta">7 Lessons</div>
-          </div>
+            <div class="bento-card__meta">3 Lessons</div>
+          </button>
 
-          <div class="bento-card bento-card--accent">
+          <button class="bento-card bento-card--accent" data-topic="wh-questions">
             <div class="bento-card__icon">❓</div>
             <div class="bento-card__title">Wh- Questions</div>
             <div class="bento-card__desc">What, Where, When, Why ကို သုံးပြီး မေးခွန်းမေးနည်း</div>
-            <div class="bento-card__meta">4 Lessons</div>
-          </div>
+            <div class="bento-card__meta">1 Lesson</div>
+          </button>
 
-          <div class="bento-card bento-card--span2">
+          <button class="bento-card bento-card--span2" data-topic="writing">
             <div class="bento-card__icon">✍️</div>
             <div class="bento-card__title">Writing &amp; Comma Rules</div>
             <div class="bento-card__desc">Sentence တွေကို ပိုကောင်းအောင် ရေးနည်းနဲ့ Comma အသုံးပြုနည်းများ</div>
-            <div class="bento-card__meta">10 Lessons</div>
-          </div>
+            <div class="bento-card__meta">4 Lessons</div>
+          </button>
         </div>
       </section>
+    </main>
+
+    <!-- ============================================
+         LESSON LIST VIEW (opened from Home bento cards)
+         ============================================ -->
+    <main id="view-lessons" class="view" data-view="lessons" hidden>
+      <button class="back-btn" id="lessonsBackBtn" type="button">‹ Home သို့ပြန်သွားမယ်</button>
+      <header class="view-header">
+        <div class="view-header__eyebrow" id="lessonsEyebrow">Topic</div>
+        <h1 class="view-header__title" id="lessonsTitle">—</h1>
+      </header>
+      <div class="lesson-list" id="lessonList">
+        <div class="empty-state">
+          <div class="empty-state__icon">⏳</div>
+          <div>Lessons များ Load လုပ်နေပါသည်...</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ============================================
+         LESSON DETAIL VIEW
+         ============================================ -->
+    <main id="view-lesson" class="view" data-view="lesson" hidden>
+      <button class="back-btn" id="lessonBackBtn" type="button">‹ Lessons စာရင်းသို့ပြန်သွားမယ်</button>
+      <div id="lessonContent"></div>
     </main>
 
     <!-- ============================================
@@ -112,11 +137,13 @@
       </header>
 
       <div class="chip-row" id="testCategoryChips">
+        <button class="chip" data-category="parts-of-speech">Parts of Speech</button>
         <button class="chip is-active" data-category="tenses">Tenses</button>
         <button class="chip" data-category="adjectives">Adjectives</button>
         <button class="chip" data-category="pronouns">Pronouns</button>
         <button class="chip" data-category="prepositions">Prepositions</button>
-        <button class="chip" data-category="commas">Commas</button>
+        <button class="chip" data-category="wh-questions">Wh- Questions</button>
+        <button class="chip" data-category="writing">Writing &amp; Commas</button>
       </div>
 
       <div class="quiz-card">

@@ -1,0 +1,41 @@
+{
+  "id": "wh-questions",
+  "title": "Wh- Questions",
+  "titleMM": "Wh- မေးခွန်းများ",
+  "lessons": [
+    {
+      "id": "wh-question-basics",
+      "title": "Wh- Question Words",
+      "tag": "Who, What, When, Where, Why, How",
+      "explain": [
+        "Wh-question word တွေက \"ဘယ်သူ၊ ဘာ၊ ဘယ်အချိန်၊ ဘယ်နေရာ၊ ဘာကြောင့်၊ ဘယ်လို\" စတဲ့ အချက်အလက်တွေကို မေးမြန်းချင်တဲ့အခါ သုံးပါတယ် — Who, What, When, Where, Why, How။",
+        "ဝါကျပုံစံက — WH-word + auxiliary verb (do/does/did/am/is/are/will...) + subject + main verb? ဖြစ်ပါတယ်။ ဥပမာ — \"Where do you live?\"",
+        "WH-word တစ်ခုစီရဲ့ အဓိပ္ပာယ် — Who (ဘယ်သူ၊ လူ), What (ဘာ၊ အရာဝတ္ထု/လုပ်ဆောင်ချက်), When (ဘယ်အချိန်), Where (ဘယ်နေရာ), Why (ဘာကြောင့်), How (ဘယ်လို/ဘယ်လောက်)"
+      ],
+      "structure": [
+        { "label": "Who", "value": "လူ (subject) — Who is calling?" },
+        { "label": "What", "value": "အရာဝတ္ထု/လုပ်ဆောင်ချက် — What do you want?" },
+        { "label": "When", "value": "အချိန် — When does the train leave?" },
+        { "label": "Where", "value": "နေရာ — Where do you live?" },
+        { "label": "Why", "value": "အကြောင်းရင်း — Why are you late?" },
+        { "label": "How", "value": "နည်းလမ်း/အခြေအနေ — How do you make tea?" }
+      ],
+      "examples": [
+        { "en": "Who is your favorite teacher?", "mm": "Who = ဘယ်သူ (လူ)" },
+        { "en": "What time does the movie start?", "mm": "What time = ဘယ်အချိန်" },
+        { "en": "Where did you go yesterday?", "mm": "Where = ဘယ်နေရာ" },
+        { "en": "Why were you absent yesterday?", "mm": "Why = ဘာကြောင့်" },
+        { "en": "How do you make green tea?", "mm": "How = ဘယ်လို (နည်းလမ်း)" }
+      ],
+      "tips": [
+        "ဝါကျဖွဲ့စည်းပုံ — WH-word + auxiliary + subject + main verb — ကို သတိရပါ — \"Where do you live?\" ✅ vs \"Where you do live?\" ❌"
+      ],
+      "quiz": [
+        { "q": "\"_____ is your best friend?\"", "options": ["What", "Who", "When", "How"], "correct": 1 },
+        { "q": "\"_____ do you live?\"", "options": ["Who", "What", "Where", "Why"], "correct": 2 },
+        { "q": "\"_____ does the train leave?\"", "options": ["Who", "When", "Why", "What"], "correct": 1 },
+        { "q": "\"_____ are you crying?\"", "options": ["What", "Where", "How", "Why"], "correct": 3 }
+      ]
+    }
+  ]
+}
