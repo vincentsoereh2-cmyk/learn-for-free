@@ -4,7 +4,7 @@
    Bump CACHE_NAME when assets change to force an update.
    ========================================================= */
 
-const CACHE_NAME = 'learn-for-free-v2';
+const CACHE_NAME = 'learn-for-free-v3';
 
 const ASSETS = [
   './',
