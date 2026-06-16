@@ -12,7 +12,7 @@
   --color-text-muted: #7A766E;
   --color-border: #ECE8E0;
 
-  --color-accent: #FF6A4D;       /* coral */
+  --color-accent: #007FFF;       /* coral */
   --color-accent-soft: #FFE4DB;  /* light coral tint for cards */
   --color-accent-2: #4D7CFF;     /* secondary blue */
   --color-accent-2-soft: #E3EBFF;
@@ -131,6 +131,23 @@ a {
   margin-bottom: var(--space-xs);
 }
 
+.view-header__toprow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.view-header__logo-icon {
+  width: 40px;
+  height: auto;
+}
+
+.view-header__toprow .view-header__eyebrow {
+  margin-bottom: 0;
+}
+
+/* Legacy — kept for About page */
 .view-header__brand {
   display: flex;
   align-items: center;
