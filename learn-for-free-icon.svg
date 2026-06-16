@@ -1,0 +1,24 @@
+<svg width="500" height="400" viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="300" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- TOP FACE: flat diamond (graduation cap board) -->
+  <polygon points="150,20 285,88 150,156 15,88" fill="url(#g)"/>
+
+  <!-- BOX LEFT FACE -->
+  <polygon points="15,88 15,202 150,228 150,156" fill="url(#g)"/>
+
+  <!-- BOX RIGHT FACE -->
+  <polygon points="285,88 150,156 150,228 285,202" fill="url(#g)"/>
+
+  <!-- White separator: fold line between cap board and box -->
+  <polyline points="15,88 150,156 285,88" stroke="white" stroke-width="5" fill="none"
+    stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- White separator: center vertical between box faces -->
+  <line x1="150" y1="156" x2="150" y2="228" stroke="white" stroke-width="5" stroke-linecap="round"/>
+</svg>
